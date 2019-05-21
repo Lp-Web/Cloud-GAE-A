@@ -1,0 +1,17 @@
+<web-app xmlns="http://java.sun.com/xml/ns/javaee" version="2.5">
+
+    <listener>
+        <listener-class>fr.sebastien.leonard.bootstrap.Bootstrap</listener-class>
+    </listener>
+
+    <servlet>
+        <servlet-name>ServletBooks</servlet-name>
+        <servlet-class>fr.sebastien.leonard.servlet.ServletBooks</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>ServletBooks</servlet-name>
+        <url-pattern>/*</url-pattern>
+    </servlet-mapping>
+
+</web-app>
