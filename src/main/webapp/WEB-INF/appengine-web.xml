@@ -4,5 +4,6 @@
   <version>1.0.0</version><!-- unused for Cloud SDK based tooling -->
   <threadsafe>true</threadsafe>
   <runtime>java8</runtime>
+  <url-stream-handler>urlfetch</url-stream-handler>
 </appengine-web-app>
 
